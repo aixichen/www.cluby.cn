@@ -1,5 +1,9 @@
 from nginx
 maintainer mandarava
 run rm -rf /usr/share/nginx/html/*
-copy ./* /usr/share/nginx/html
-run rm -rf /usr/share/nginx/html/dockerfile
+copy ./css /usr/share/nginx/html
+copy ./fonts /usr/share/nginx/html
+copy ./i /usr/share/nginx/html
+copy ./img /usr/share/nginx/html
+copy ./js /usr/share/nginx/html
+copy ./index.html /usr/share/nginx/html
