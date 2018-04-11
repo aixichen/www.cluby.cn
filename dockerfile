@@ -1,4 +1,4 @@
-from nginx
+from nginx:1.13-alpine
 maintainer mandarava
 run rm -rf /usr/share/nginx/html/*
 copy ./css /usr/share/nginx/html/css
